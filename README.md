@@ -1,4 +1,4 @@
-# Mini Project: Node Jokes
+# Project 4: Node Jokes
 
 En este ejercicio vamos a construir una pequeña **aplicación de línea de comandos (CLI)**, utilizando los módulos `fs` y `request` de la _API de Node_, que nos permita [realizar _requests_ a una _API_](#haciendo-requests-con-node) y almacenar el resultado en un archivo de texto. Además, vamos a utilizar los paquetes [`chalk`](https://www.npmjs.com/package/chalk) para loguear algunos mensajes por consola con diferentes formatos y [`prompt`](https://www.npmjs.com/package/prompt) para solicitar input del usuario.
 
