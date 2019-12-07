@@ -4,7 +4,7 @@ En este ejercicio vamos a construir una pequeña **aplicación de línea de coma
 
 ## Parte 1
 
-Esta aplicación debe solicitar inout al usuario utilizando [`prompt`](https://www.npmjs.com/package/prompt). Este argumento será una _keyword_ que vamos a utilizar como término de búsqueda. La aplicación hará un _request_ a la [_dad joke API_](https://icanhazdadjoke.com/api) (en formato JSON) para buscar algún chiste basado en esta keyword: si encuentra alguno, debe loguearlo por consola (en color verde, entre comillas) y guardarlo en el archivo `jokes.txt`. Si no encuentra ningún chiste, debe loguear por consola (en color rojo, entre comillas) el mensaje `"Acá no hacemos chistes con esas cosas."`
+Esta aplicación debe solicitar inout al usuario utilizando [`prompt`](https://www.npmjs.com/package/prompt). Este argumento será una _keyword_ que vamos a utilizar como término de búsqueda. La aplicación hará un _request_ al endpoint `/search` de la [_dad joke API_](https://icanhazdadjoke.com/api) (en formato JSON) para buscar algún chiste basado en esta keyword: si encuentra alguno, debe loguearlo por consola (en color verde, entre comillas) y guardarlo en el archivo `jokes.txt`. Si no encuentra ningún chiste, debe loguear por consola (en color rojo, entre comillas) el mensaje `"Acá no hacemos chistes con esas cosas."`
 
 Cada nuevo chiste que agregamos al archivo `jokes.txt` debe escribirse dejando una línea en blanco respecto del anterior
 
