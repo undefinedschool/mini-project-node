@@ -32,6 +32,8 @@ El código debe estar organizado en los siguientes módulos:
 |_ output.js
 ```
 
+**Tip:** Usar [`nodemon`](https://www.npmjs.com/package/nodemon) y crear el script `dev: nodemon index.js` en el `package.json` para desarrollar
+
 ## Parte 2 (un poco más difícil)
 
 Si el programa recibe el string `leaderboard` como segundo argumento, la aplicación debe loguear entre comillas y sin formato extra, el chiste más popular de los obtenidos, basado en cuántas veces aparece en el archivo `jokes.txt`, seguido del texto `"#ElMasPopular"`, en color azul claro. Ver ejemplo debajo
