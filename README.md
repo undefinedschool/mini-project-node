@@ -32,7 +32,9 @@ El código debe estar organizado en los siguientes módulos:
 |_ output.js
 ```
 
-**Tip:** Usar [`nodemon`](https://www.npmjs.com/package/nodemon) y crear el script `dev: nodemon index.js` en el `package.json` para desarrollar
+**Tip 1 :** usar [`nodemon`](https://www.npmjs.com/package/nodemon) y crear el script `dev: nodemon index.js` en el `package.json` para desarrollar
+
+**Tip 2:** chequear estrategias en [callbackhell.com](http://callbackhell.com/) para lidiar con los callbacks anidados y reducir la complejidad. Siempre que se pueda, modularizar el código en funnciones que hagan 1 cosa. Los callbacks pueden ser funciones auxiliares definidas aparte.
 
 ## Parte 2 (un poco más difícil)
 
