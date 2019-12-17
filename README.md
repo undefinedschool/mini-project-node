@@ -2,6 +2,8 @@
 
 En este ejercicio vamos a construir una pequeña **aplicación de línea de comandos (CLI)**, utilizando los módulos `fs` y `request` de la _API de Node_, que nos permita [realizar _requests_ a una _API_](https://github.com/undefinedschool/notes-nodejs/blob/master/README.md#haciendo-requests-con-node) y almacenar el resultado en un archivo de texto. Además, vamos a utilizar los paquetes [`chalk`](https://www.npmjs.com/package/chalk) para loguear algunos mensajes por consola con diferentes formatos y [`prompt`](https://www.npmjs.com/package/prompt) para solicitar input del usuario.
 
+**Nota:** para los _requests_ también pueden utilizar el paquete [`request`](https://www.npmjs.com/package/request) de NPM, que tiene una API mucho más simple
+
 ## Parte 1
 
 Esta aplicación debe solicitar inout al usuario utilizando [`prompt`](https://www.npmjs.com/package/prompt). Este argumento será una _keyword_ que vamos a utilizar como término de búsqueda. La aplicación hará un _request_ al endpoint `/search` de la [_dad joke API_](https://icanhazdadjoke.com/api) (en formato JSON) para buscar algún chiste basado en esta keyword: si encuentra alguno, debe loguearlo por consola (en color verde, entre comillas) y guardarlo en el archivo `jokes.txt`. Si no encuentra ningún chiste, debe loguear por consola (en color rojo, entre comillas) el mensaje `"Acá no hacemos chistes con esas cosas."`
