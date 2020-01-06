@@ -40,7 +40,7 @@ El código debe estar organizado en los siguientes módulos:
 
 ## Parte 2 (un poco más difícil)
 
-Si el programa recibe además el string `leaderboard` como parte del input (ej: `medialunas leaderboard`), la aplicación debe loguear entre comillas y sin formato extra, el chiste más popular de los obtenidos, basado en cuántas veces aparece en el archivo `jokes.txt`, seguido del texto `"#ElMasPopular"`, en color azul claro. Ver ejemplo debajo
+Si el programa recibe el keyword `leaderboard` como input, la aplicación debe loguear entre comillas y sin formato extra, el chiste más popular entre los obtenidos hasta el momento, basado en cuántas veces aparece en el archivo `jokes.txt`, seguido del texto `"#ElMasPopular"`, en color azul claro. Ver ejemplo debajo
 
 ![](https://i.imgur.com/7t0jOQn.png)
 
